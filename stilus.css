@@ -1,0 +1,33 @@
+body{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background-color: black;
+    
+}
+#tarolo{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+#fejlec{
+    background-image:url(fk.jpg) ;
+    height: 300px;/*Hogy a kép látszodjon adni kell neki magasságot*/
+    color: #ffffff;
+}
+#nav{
+    background-color: rgb(129, 245, 191);
+    padding: 5px 10px;
+    border: 2px solid aqua;
+}
+
+a{
+    color: rgb(105, 152, 240);
+    text-decoration: none;
+    background-color: aquamarine;
+    border: 3px solid rgb(14, 0, 78);
+    padding: 5px 20px 5px 20px;/*felülröl indul*/
+}
+a:hover{
+    color: rgb(0, 78, 20);
+    background-color: blue;
+}
